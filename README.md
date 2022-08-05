@@ -23,7 +23,7 @@ spring.config.import=optional:configserver:http://localhost:8888
 
 Name of the limit service application has to match with the same name of the properties file in the config server. 
 For example if the application name is (spring.application.name = ) limits-service then the property file name in the config server must be limits-service.properties.
-
+ 
 It would use the limits-service as an id to talk to the config server to get the configuration back.
 
 Values in application.properties in the limits microservice has less priority compared with the values which are present in the git repo config server. 
